@@ -26,8 +26,32 @@
             </ul>
         </div>
     </nav>
+    <br>
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10" style=" height: 500px;padding-left: 20px;">
+                <ul id="messages"></ul>
+            </div>
+        </div>
+        <br>
+        <form id="message-form">
+            <div class="form-row">
+                <div class="col-10">
+                    <input type="text" name='message' class="form-control" placeholder="Message..." />
+                </div>
+                <button class="btn btn-outline-primary btn-sm">Send</button>
+            </div>
+        </form>
+    </div>
+
     <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="/js/index.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
